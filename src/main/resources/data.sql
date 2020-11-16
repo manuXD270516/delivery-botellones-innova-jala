@@ -1,0 +1,1 @@
+insert into Persona(nombres, apellidos, telefono) values ('manuel', 'saavedra', '78787878');
