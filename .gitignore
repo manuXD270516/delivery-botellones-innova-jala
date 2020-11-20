@@ -1,9 +1,14 @@
 # Logs
 logs
 
-
-
-
+#Properties
+*.properties
+#target
+target/
+.settings/
+.project
+.classpath
+.factorypath
 
 
 *.log
