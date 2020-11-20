@@ -14,7 +14,13 @@ import javax.validation.constraints.NotNull;
  */
 
 @MappedSuperclass
+@Data
 public abstract class Persona extends AbstractEntity {
+
+
+    @NotNull
+    @NotEmpty
+    protected String ci;
 
     @NotNull
     @NotEmpty
