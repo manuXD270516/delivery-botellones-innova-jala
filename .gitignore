@@ -2,6 +2,7 @@
 logs
 
 #Properties
+src/main/resources/
 *.properties
 #target
 target/
