@@ -1,11 +1,8 @@
 package com.cainco.bootcamp.system.services;
 
+import com.cainco.bootcamp.system.dto.ZonaDTO;
 import java.util.List;
 
-import com.cainco.bootcamp.system.dto.ZonaDTO;
-
 public interface IZonaService {
-	
-	public List<ZonaDTO> listarZonas();
-
+    List<ZonaDTO> listarZonas();
 }

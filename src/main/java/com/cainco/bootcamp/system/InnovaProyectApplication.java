@@ -1,5 +1,13 @@
 package com.cainco.bootcamp.system;
 
+import com.cainco.bootcamp.system.dao.IClienteDao;
+import com.cainco.bootcamp.system.dao.IProductoDao;
+import com.cainco.bootcamp.system.dao.IRepartidorDao;
+import com.cainco.bootcamp.system.dao.IZonaDao;
+import com.cainco.bootcamp.system.entity.Cliente;
+import com.cainco.bootcamp.system.entity.Producto;
+import com.cainco.bootcamp.system.entity.Repartidor;
+import com.cainco.bootcamp.system.entity.Zona;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -12,7 +20,19 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories
 @SpringBootApplication(/*exclude = {HibernateJpaAutoConfiguration.class}*/)
 public class InnovaProyectApplication implements ApplicationRunner {
-/*
+
+	@Autowired
+	private IClienteDao clienteDao;
+	@Autowired
+	private IProductoDao productoDao;
+	@Autowired
+	private IRepartidorDao repartidorDao;
+	@Autowired
+	private IZonaDao zonaDao;
+
+
+
+	/*
 
 	private static final Logger log = LoggerFactory.getLogger(InnovaProyectApplication.class);
 
@@ -58,11 +78,44 @@ public class InnovaProyectApplication implements ApplicationRunner {
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
-		/*Persona p = new Persona();
-		p.setNombres("manuel");
-		p.setApellidos("saavedra");
-		p.setTelefono("785824");
-		personaRepository.save(p);*/
+		Cliente cliente = new Cliente();
+		cliente.setCi("123456");
+		cliente.setNombres("Flavio");
+		cliente.setApellidos("Arteaga");
+		cliente.setTelefono("74441781");
+		cliente.setNit("111AAA");
+		cliente.setLatitud(12.031313);
+		cliente.setLongitud(-12.031313);
+		clienteDao.save(cliente);
+
+
+		Producto producto = new Producto();
+		producto.setCodigo("A1234");
+		producto.setNombre("Botellones de Agua");
+		producto.setStock(200);
+		producto.setPrecio_venta(20);
+		producto.setEstado(1);
+		productoDao.save(producto);
+
+		Repartidor repartidor = new Repartidor();
+		repartidor.setCi("2121");
+		repartidor.setNombres("Daniel");
+		repartidor.setApellidos("Fuentes");
+		repartidor.setTurnoHorario("Diurno");
+		repartidor.setTelefono("78784542");
+
+		repartidorDao.save(repartidor);
+
+		Zona zona = new Zona();
+		zona.setNombre("Av Guapilo");
+		zona.setEstado(1);
+
+		zonaDao.save(zona);
+
+
+
+
+
 	}
 
 

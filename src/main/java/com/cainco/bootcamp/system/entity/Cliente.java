@@ -15,10 +15,10 @@ public class Cliente extends Persona {
     private String nit;
 
     @NotNull
-    private Long latitud;
+    private double latitud;
 
     @NotNull
-    private Long longitud;
+    private double longitud;
 
     @OneToMany(mappedBy = "cliente")
     private List<Pedido> pedidos;
