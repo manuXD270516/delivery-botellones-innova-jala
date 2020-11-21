@@ -3,7 +3,7 @@ logs
 
 #Properties
 src/main/resources/
-*.properties
+application-dev.properties
 #target
 target/
 .settings/
