@@ -14,6 +14,13 @@ public class DetallePedido extends AbstractEntity {
     @NotNull
     private int cantidad;
 
+    @NotNull
+    private double precio_venta;
+
+
+    @NotNull
+    private double importe;
+
     private String descripcion;
 
     @ManyToOne

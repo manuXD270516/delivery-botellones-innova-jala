@@ -12,9 +12,6 @@ public class ProductoServiceImpl implements IProductoService {
     @Autowired
     private IProductoDao productoDao;
 
-    public ProductoServiceImpl() {
-    }
-
     public List<ProductoDTO> listarProductos() {
         List<ProductoDTO> productos = new ArrayList();
         int STATE_ENABLE = 1;

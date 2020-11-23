@@ -25,6 +25,9 @@ public class Pedido extends AbstractEntity {
     @NotNull
     private String tipo;
 
+    @NotNull
+    private double importe_total;
+
     @ManyToOne
     @JoinColumn(name = "id_cliente")
     @NotNull
@@ -43,6 +46,8 @@ public class Pedido extends AbstractEntity {
     @OneToMany(mappedBy = "pedido")
     private List<DetallePedido> detallePedidos;
 
-
+    public void addDetallePedido(DetallePedido detallePedido){
+        detallePedidos.add(detallePedido);
+    }
 
 }

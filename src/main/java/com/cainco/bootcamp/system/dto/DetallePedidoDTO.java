@@ -4,4 +4,5 @@ public class DetallePedidoDTO {
 
     public int cantidad;
     public long idProducto;
+    public double precioProducto;
 }

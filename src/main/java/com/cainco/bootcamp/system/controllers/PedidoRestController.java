@@ -20,8 +20,6 @@ public class PedidoRestController {
     @Autowired
     private IPedidoService pedidoService;
 
-    public PedidoRestController() {
-    }
 
     @PostMapping
     public ResponseEntity<?> addPedido(@RequestBody PedidoDTO pedido) {

@@ -72,10 +72,15 @@ public class PedidoServiceImpl implements IPedidoService {
         pedidoParaRegistro.setEstado(1);
         pedidoParaRegistro.setFecha_hora(pedido.fechaHora);
         pedidoParaRegistro.setTipo("Programado");
+
         pedidoParaRegistro = this.pedidoDao.save(pedidoParaRegistro);
         if (pedidoParaRegistro != null) {
+
             DetallePedido detallePedido = new DetallePedido();
             detallePedido.setCantidad(pedido.detalle.cantidad);
+            detallePedido.setPrecio_venta(pedido.detalle.precioProducto);
+            detallePedido.setImporte(pedido.detalle.cantidad * pedido.detalle.precioProducto);
+
             Optional<Producto> productoOptional = this.productoDao.findById(pedido.detalle.idProducto);
             if (productoOptional.isPresent()) {
                 Producto producto = productoOptional.get();
@@ -86,7 +91,12 @@ public class PedidoServiceImpl implements IPedidoService {
 
             detallePedido.setPedido(pedidoParaRegistro);
             this.detallePedidoDao.save(detallePedido);
+
+            // Modificar si es mas de un item que se registre
+            pedidoParaRegistro.setImporte_total(detallePedido.getImporte());
+            pedidoDao.save(pedidoParaRegistro);
         }
+
 
         response.estado = 200;
         response.mensaje = "Pedido registrado exitosamente";

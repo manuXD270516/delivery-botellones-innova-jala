@@ -1,4 +1,5 @@
 package com.cainco.bootcamp.system.controllers;
+import com.cainco.bootcamp.system.dto.ZonaDTO;
 import com.cainco.bootcamp.system.services.IZonaService;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -24,19 +25,17 @@ public class ZonaRestController {
 
     @GetMapping
     public ResponseEntity<?> findAll() {
-        Map<String, Object> response = new HashMap();
-        new ArrayList();
-
-        List zonas;
+        Map<String, Object> response = new HashMap<>();
+        List<ZonaDTO> zonas = new ArrayList<ZonaDTO>();
         try {
-            zonas = this.zonaService.listarZonas();
-        } catch (DataAccessException var4) {
+            zonas = zonaService.listarZonas();
+        } catch (DataAccessException e) {
             response.put("mensaje", "Error al realizar la consulta en la base de datos");
-            response.put("error", var4.getMessage().concat(": ").concat(var4.getMostSpecificCause().getMessage()));
-            return new ResponseEntity(response, HttpStatus.INTERNAL_SERVER_ERROR);
+            response.put("error", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
+            return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
         response.put("zonas", zonas);
-        return new ResponseEntity(response, HttpStatus.OK);
+        return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
     }
 }

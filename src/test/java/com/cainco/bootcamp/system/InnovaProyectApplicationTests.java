@@ -10,4 +10,8 @@ class InnovaProyectApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void testGetAllClients(){
+
+	}
 }

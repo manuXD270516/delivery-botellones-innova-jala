@@ -23,4 +23,8 @@ public class Cliente extends Persona {
     @OneToMany(mappedBy = "cliente")
     private List<Pedido> pedidos;
 
+    public String getNombreCompleto(){
+        return nombres + " " +apellidos;
+    }
+
 }

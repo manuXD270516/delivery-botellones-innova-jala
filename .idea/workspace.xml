@@ -41,41 +41,28 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cdef668-756b-41ba-ac26-ed3a763f6059" name="Default Changelist" comment="squash! actualizacion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/config/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/controllers/ClienteRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/controllers/PedidoRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/controllers/ProductoRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/controllers/RepartidorRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/controllers/ZonaRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dao/IClienteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dao/IDetallePedidoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dao/IPedidoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dao/IProductoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dao/IRepartidorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dao/IZonaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dto/ClienteDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dto/DetallePedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dto/PedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dto/ProductoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dto/ResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dto/ZonaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/ClienteServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/DetallePedidoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/IClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/IDetallePedidoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/IPedidoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/IProductoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/IRepartidorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/IZonaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/PedidoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/ProductoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/RepartidorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/ZonaServiceImpl.java" afterDir="false" />
+    <list default="true" id="8cdef668-756b-41ba-ac26-ed3a763f6059" name="Default Changelist" comment="Restauracion de los ultimos cambios">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cainco/bootcamp/system/CasosUsoClientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cainco/bootcamp/system/CasosUsoPedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cainco/bootcamp/system/CasosUsoZonas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cainco/bootcamp/system/UnitTestsMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/InnovaProyectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/InnovaProyectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/controllers/PedidoRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/controllers/PedidoRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/controllers/ZonaRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/controllers/ZonaRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/controllers/ZonasRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dao/IClienteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dao/IClienteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dao/IPedidoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dao/IPedidoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dto/DetallePedidoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/dto/DetallePedidoDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/DetallePedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/DetallePedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/PedidoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/PedidoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/services/ProductoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cainco/bootcamp/system/InnovaProyectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cainco/bootcamp/system/InnovaProyectApplicationTests.java" afterDir="false" />
     </list>
     <list id="2985817a-5179-47aa-abf0-b7ebd73bc6e5" name="Revert &quot;actualizacion&quot;" comment="Revert &quot;actualizacion&quot;&#10;&#10;This reverts commit 616edafa">
       <change beforePath="$PROJECT_DIR$/target/classes/com/cainco/bootcamp/system/config/MainConfig.class" beforeDir="false" />
@@ -189,43 +176,94 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnovaProyectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="InnovaProyect" />
+    <configuration name="UnitTestsMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="repo-team6" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cainco.bootcamp.system.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cainco.bootcamp.system.InnovaProyectApplication" />
+      <option name="PACKAGE_NAME" value="com.cainco.bootcamp.system" />
+      <option name="MAIN_CLASS_NAME" value="com.cainco.bootcamp.system.UnitTestsMethods" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestsMethods.verificarImporteTotalPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="repo-team6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cainco.bootcamp.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cainco.bootcamp.system" />
+      <option name="MAIN_CLASS_NAME" value="com.cainco.bootcamp.system.UnitTestsMethods" />
+      <option name="METHOD_NAME" value="verificarImporteTotalPedido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestsMethods.verificarNombreCompletoClienteRegistrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="repo-team6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cainco.bootcamp.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cainco.bootcamp.system" />
+      <option name="MAIN_CLASS_NAME" value="com.cainco.bootcamp.system.UnitTestsMethods" />
+      <option name="METHOD_NAME" value="verificarNombreCompletoClienteRegistrado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestsMethods.verificarRegistroZonas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="repo-team6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cainco.bootcamp.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cainco.bootcamp.system" />
+      <option name="MAIN_CLASS_NAME" value="com.cainco.bootcamp.system.UnitTestsMethods" />
+      <option name="METHOD_NAME" value="verificarRegistroZonas" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.UnitTestsMethods.verificarRegistroZonas" />
+      <item itemvalue="JUnit.UnitTestsMethods.verificarNombreCompletoClienteRegistrado" />
+      <item itemvalue="JUnit.UnitTestsMethods" />
       <item itemvalue="Application.InnovaProyectApplication" />
-      <item itemvalue="Spring Boot.InnovaProyectApplication" />
+      <item itemvalue="JUnit.UnitTestsMethods.verificarImporteTotalPedido" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.InnovaProyectApplication" />
-        <item itemvalue="Spring Boot.InnovaProyectApplication" />
-        <item itemvalue="Spring Boot.InnovaProyectApplication" />
-        <item itemvalue="Application.InnovaProyectApplication" />
-        <item itemvalue="Spring Boot.InnovaProyectApplication" />
+        <item itemvalue="JUnit.UnitTestsMethods" />
+        <item itemvalue="JUnit.UnitTestsMethods.verificarImporteTotalPedido" />
+        <item itemvalue="JUnit.UnitTestsMethods.verificarNombreCompletoClienteRegistrado" />
+        <item itemvalue="JUnit.UnitTestsMethods.verificarRegistroZonas" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +281,10 @@
       <workItem from="1605837620435" duration="20177000" />
       <workItem from="1605896532592" duration="249000" />
       <workItem from="1605896813625" duration="668000" />
-      <workItem from="1605897491223" duration="3210000" />
+      <workItem from="1605897491223" duration="3613000" />
+      <workItem from="1605915052601" duration="11588000" />
+      <workItem from="1605993180444" duration="1212000" />
+      <workItem from="1606087007492" duration="11779000" />
     </task>
     <task id="LOCAL-00001" summary="Feature 01: Implementacion del mapeo del modelo relacional de base de datos del proyecto">
       <created>1605552610244</created>
@@ -273,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605896186029</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Restauracion de los ultimos cambios">
+      <created>1605900818547</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605900818547</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +356,8 @@
     <MESSAGE value="Feature 01: conclusion del PBI de gestion de pedidos por parte del backend" />
     <MESSAGE value="squash! actualizacion" />
     <MESSAGE value="fixup! squash! actualizacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup! squash! actualizacion" />
+    <MESSAGE value="Restauracion de los ultimos cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restauracion de los ultimos cambios" />
   </component>
   <component name="WindowStateProjectService">
     <state x="206" y="258" key="#SQL_Dialects" timestamp="1605297014340">
@@ -344,6 +393,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="352" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1605897640637" />
+    <state width="414" height="466" key="DebuggerActiveHint" timestamp="1606097489185">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="414" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1606097489185" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1605899034922">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -356,50 +409,54 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="261" y="100" key="Git.Interactive.Rebase.Dialog/0.0.1536.834@0.0.1536.834" timestamp="1605896617364" />
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1605900462607">
+    <state width="1493" height="248" key="GridCell.Tab.0.bottom" timestamp="1606098700044">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605846456260" />
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605900462607" />
-    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1605900462607">
+    <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605978899703" />
+    <state width="1493" height="248" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606098700044" />
+    <state width="1493" height="248" key="GridCell.Tab.0.center" timestamp="1606098700044">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605846456260" />
-    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1605900462607" />
-    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1605900462607">
+    <state width="1493" height="279" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605978899703" />
+    <state width="1493" height="248" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606098700044" />
+    <state width="1493" height="248" key="GridCell.Tab.0.left" timestamp="1606098700044">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605846456259" />
-    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1605900462607" />
-    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1605900462607">
+    <state width="1493" height="279" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605978899703" />
+    <state width="1493" height="248" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606098700044" />
+    <state width="1493" height="248" key="GridCell.Tab.0.right" timestamp="1606098700044">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605846456260" />
-    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605900462607" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1605900462608">
+    <state width="1493" height="279" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605978899703" />
+    <state width="1493" height="248" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606098700044" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1606098542163">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605846260524" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605900462608" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1605900462608">
+    <state width="1493" height="279" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605978899704" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606098542163" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center" timestamp="1606098542163">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605846260524" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1605900462608" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1605900462608">
+    <state width="1493" height="279" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605978899703" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606098542163" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left" timestamp="1606098542163">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605846260524" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1605900462608" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1605900462608">
+    <state width="1493" height="279" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605978899703" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606098542163" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right" timestamp="1606098542163">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605846260524" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1605900462608" />
-    <state x="407" y="178" key="MultipleFileMergeDialog" timestamp="1605896207081">
+    <state width="1493" height="279" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605978899704" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606098542163" />
+    <state x="407" y="178" key="MultipleFileMergeDialog" timestamp="1605900865974">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="407" y="178" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1605896207081" />
+    <state x="407" y="178" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1605900865974" />
+    <state x="493" y="119" key="RollbackChangesDialog" timestamp="1606090476542">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="493" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1606090476542" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1605552881345">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -409,23 +466,24 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="618" y="330" key="VCS.ChangelistChooser/0.0.1536.834@0.0.1536.834" timestamp="1605896439675" />
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1605896324167">
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1605900840639">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1605896324167" />
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1605900840639" />
     <state x="441" y="151" key="VcsDiffUtil.ChangesDialog" timestamp="1605896597078">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="441" y="151" key="VcsDiffUtil.ChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1605896597078" />
-    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1605846352998">
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1606098935858">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605846352998" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1605885225925">
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1606098935858" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1606091871371">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1605844994278" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1605885225925" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1606091871371" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
