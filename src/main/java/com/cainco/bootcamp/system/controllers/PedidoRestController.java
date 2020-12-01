@@ -27,10 +27,11 @@ public class PedidoRestController {
     public ResponseEntity<?> addPedido(@RequestBody PedidoDTO pedido) {
         Map<String, Object> response = new HashMap();
         new ResponseDTO();
-
+       
         ResponseDTO responseDTO;
         try {
             responseDTO = this.pedidoService.addPedido(pedido);
+            
         } catch (DataAccessException var5) {
             response.put("mensaje", "Error al realizar la consulta en la base de datos");
             response.put("error", var5.getMessage().concat(": ").concat(var5.getMostSpecificCause().getMessage()));
@@ -38,6 +39,7 @@ public class PedidoRestController {
         }
 
         response.put("respuesta", responseDTO);
+       
         return new ResponseEntity(response, HttpStatus.OK);
     }
 }
