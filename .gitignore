@@ -4,6 +4,8 @@ logs
 #Properties
 src/main/resources/
 application-dev.properties
+src/main/java/com/cainco/bootcamp/system/entity/
+AbstractEntity.java
 #target
 target/
 .settings/
