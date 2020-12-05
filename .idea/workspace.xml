@@ -151,6 +151,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnitTestsMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="repo-team6" />
       <extension name="coverage">
@@ -252,7 +263,7 @@
       <workItem from="1606323187991" duration="3257000" />
       <workItem from="1606521720907" duration="3546000" />
       <workItem from="1606535519373" duration="604000" />
-      <workItem from="1607131717682" duration="3920000" />
+      <workItem from="1607131717682" duration="4257000" />
     </task>
     <task id="LOCAL-00001" summary="Feature 01: Implementacion del mapeo del modelo relacional de base de datos del proyecto">
       <created>1605552610244</created>
@@ -389,25 +400,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="261" y="100" key="Git.Interactive.Rebase.Dialog/0.0.1536.834@0.0.1536.834" timestamp="1605896617364" />
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1607141212856">
+    <state width="1493" height="342" key="GridCell.Tab.0.bottom" timestamp="1607141310305">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607141212856" />
+    <state width="1493" height="342" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607141310305" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606099213546" />
-    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1607141212856">
+    <state width="1493" height="342" key="GridCell.Tab.0.center" timestamp="1607141310305">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607141212856" />
+    <state width="1493" height="342" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607141310305" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606099213546" />
-    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1607141212856">
+    <state width="1493" height="342" key="GridCell.Tab.0.left" timestamp="1607141310305">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607141212855" />
+    <state width="1493" height="342" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607141310305" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606099213546" />
-    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1607141212856">
+    <state width="1493" height="342" key="GridCell.Tab.0.right" timestamp="1607141310305">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607141212856" />
+    <state width="1493" height="342" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607141310305" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606099213546" />
     <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1606099213541">
       <screen x="0" y="0" width="1536" height="834" />
