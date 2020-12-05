@@ -1,4 +1,6 @@
 package com.cainco.bootcamp.system.services;
+
+import com.cainco.bootcamp.system.config.Validaciones;
 import com.cainco.bootcamp.system.dao.IClienteDao;
 import com.cainco.bootcamp.system.dao.IDetallePedidoDao;
 import com.cainco.bootcamp.system.dao.IPedidoDao;
@@ -13,7 +15,11 @@ import com.cainco.bootcamp.system.entity.Pedido;
 import com.cainco.bootcamp.system.entity.Producto;
 import com.cainco.bootcamp.system.entity.Repartidor;
 import com.cainco.bootcamp.system.entity.Zona;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -32,6 +38,9 @@ public class PedidoServiceImpl implements IPedidoService {
     @Autowired
     private IProductoDao productoDao;
 
+    @Autowired
+    private Validaciones validaciones;
+
     public PedidoServiceImpl() {
     }
 
@@ -39,16 +48,21 @@ public class PedidoServiceImpl implements IPedidoService {
         ResponseDTO response = new ResponseDTO();
         Pedido pedidoParaRegistro = new Pedido();
         Cliente cliente = new Cliente();
+        DetallePedido detallePedido = new DetallePedido();
         if (pedido.cliente.idCliente != 0) {
             cliente = this.clienteDao.findByTelefono(pedido.cliente.telefono);
         } else {
+
             cliente.setNombres(pedido.cliente.nombres);
             cliente.setApellidos(pedido.cliente.apellidos);
             cliente.setLatitud(pedido.cliente.latitud);
             cliente.setLongitud(pedido.cliente.longitud);
             cliente.setTelefono(pedido.cliente.telefono);
-            cliente.setCi(pedido.cliente.ci);
-            cliente = this.clienteDao.save(cliente);
+            if (validaciones.validaCarnet(pedido.cliente.ci)) {
+                cliente.setCi(pedido.cliente.ci);
+            }
+
+
         }
 
         pedidoParaRegistro.setCliente(cliente);
@@ -76,7 +90,7 @@ public class PedidoServiceImpl implements IPedidoService {
         pedidoParaRegistro = this.pedidoDao.save(pedidoParaRegistro);
         if (pedidoParaRegistro != null) {
 
-            DetallePedido detallePedido = new DetallePedido();
+
             detallePedido.setCantidad(pedido.detalle.cantidad);
             detallePedido.setPrecio_venta(pedido.detalle.precioProducto);
             detallePedido.setImporte(pedido.detalle.cantidad * pedido.detalle.precioProducto);
@@ -98,8 +112,30 @@ public class PedidoServiceImpl implements IPedidoService {
         }
 
 
-        response.estado = 200;
-        response.mensaje = "Pedido registrado exitosamente";
+        if (validaciones.validaCarnet(pedido.cliente.ci)) {
+            response.estado = 200;
+            response.mensaje = "Pedido registrado exitosamente";
+            this.pedidoDao.save(pedidoParaRegistro);
+            cliente = this.clienteDao.save(cliente);
+            this.detallePedidoDao.save(detallePedido);
+        } else {
+            response.estado = 400;
+            response.mensaje = "formato de carnet incorrecto";
+        }
+
+
         return response;
+    }
+
+    @Override
+    public List<PedidoDTO> listarPedidos() {
+        List<PedidoDTO> pedidoDTOS = new ArrayList<>();
+
+
+        pedidoDao.findAll()
+                .forEach(pedido -> {
+                    pedidoDTOS.add(PedidoDTO.convertir(pedido));
+                });
+        return pedidoDTOS;
     }
 }
