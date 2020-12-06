@@ -83,7 +83,7 @@ public class PedidoServiceImpl implements IPedidoService {
         }
 
         pedidoParaRegistro.setDireccion(pedido.direccion);
-        pedidoParaRegistro.setEstado(1);
+        pedidoParaRegistro.setEstado(0);
         pedidoParaRegistro.setFecha_hora(pedido.fechaHora);
         pedidoParaRegistro.setTipo("Programado");
 
