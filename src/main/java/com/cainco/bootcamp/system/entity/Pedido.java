@@ -11,7 +11,7 @@ import java.util.List;
 @Data
 public class Pedido extends AbstractEntity {
 
-    @NotNul
+    @NotNull
     private String direccion;
 
     @NotNull

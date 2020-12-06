@@ -16,22 +16,20 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:local-origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/develop" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cdef668-756b-41ba-ac26-ed3a763f6059" name="Default Changelist" comment="Feature_PBI_01: Agregando pruebas unitarias y permisos de cors al proyecto">
+    <list default="true" id="8cdef668-756b-41ba-ac26-ed3a763f6059" name="Default Changelist" comment="Fix: Corrigiendo el error sucitado por el registro de los clientes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cainco/bootcamp/system/entity/Pedido.java" afterDir="false" />
     </list>
     <list id="2985817a-5179-47aa-abf0-b7ebd73bc6e5" name="Revert &quot;actualizacion&quot;" comment="Revert &quot;actualizacion&quot;&#10;&#10;This reverts commit 616edafa" />
@@ -218,7 +216,7 @@
       <workItem from="1606521720907" duration="3546000" />
       <workItem from="1606535519373" duration="604000" />
       <workItem from="1607131717682" duration="5687000" />
-      <workItem from="1607208021405" duration="2565000" />
+      <workItem from="1607208021405" duration="2975000" />
     </task>
     <task id="LOCAL-00001" summary="Feature 01: Implementacion del mapeo del modelo relacional de base de datos del proyecto">
       <created>1605552610244</created>
@@ -262,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606099082846</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix: Corrigiendo el error sucitado por el registro de los clientes">
+      <created>1607215722556</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607215722556</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +284,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/develop" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -299,7 +304,8 @@
     <MESSAGE value="fixup! squash! actualizacion" />
     <MESSAGE value="Restauracion de los ultimos cambios" />
     <MESSAGE value="Feature_PBI_01: Agregando pruebas unitarias y permisos de cors al proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature_PBI_01: Agregando pruebas unitarias y permisos de cors al proyecto" />
+    <MESSAGE value="Fix: Corrigiendo el error sucitado por el registro de los clientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Corrigiendo el error sucitado por el registro de los clientes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="206" y="258" key="#SQL_Dialects" timestamp="1605297014340">
@@ -355,29 +361,29 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="261" y="100" key="Git.Interactive.Rebase.Dialog/0.0.1536.834@0.0.1536.834" timestamp="1605896617364" />
-    <state width="1238" height="453" key="GridCell.Tab.0.bottom" timestamp="1607215283016">
+    <state width="1238" height="549" key="GridCell.Tab.0.bottom" timestamp="1607215621799">
       <screen x="1920" y="0" width="2560" height="1410" />
     </state>
     <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607144424152" />
-    <state width="1238" height="453" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1607215283016" />
+    <state width="1238" height="549" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1607215621799" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606099213546" />
-    <state width="1238" height="453" key="GridCell.Tab.0.center" timestamp="1607215283015">
+    <state width="1238" height="549" key="GridCell.Tab.0.center" timestamp="1607215621799">
       <screen x="1920" y="0" width="2560" height="1410" />
     </state>
     <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607144424152" />
-    <state width="1238" height="453" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1607215283015" />
+    <state width="1238" height="549" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1607215621799" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606099213546" />
-    <state width="1238" height="453" key="GridCell.Tab.0.left" timestamp="1607215283015">
+    <state width="1238" height="549" key="GridCell.Tab.0.left" timestamp="1607215621799">
       <screen x="1920" y="0" width="2560" height="1410" />
     </state>
     <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607144424152" />
-    <state width="1238" height="453" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1607215283015" />
+    <state width="1238" height="549" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1607215621799" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606099213546" />
-    <state width="1238" height="453" key="GridCell.Tab.0.right" timestamp="1607215283015">
+    <state width="1238" height="549" key="GridCell.Tab.0.right" timestamp="1607215621799">
       <screen x="1920" y="0" width="2560" height="1410" />
     </state>
     <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.2560.1410@0.0.1536.834" timestamp="1607144424152" />
-    <state width="1238" height="453" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1607215283015" />
+    <state width="1238" height="549" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1607215621799" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606099213546" />
     <state width="1238" height="473" key="GridCell.Tab.1.bottom" timestamp="1607215160251">
       <screen x="1920" y="0" width="2560" height="1410" />
@@ -420,9 +426,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="618" y="330" key="VCS.ChangelistChooser/0.0.1536.834@0.0.1536.834" timestamp="1605896439675" />
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1606099143763">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="2240" y="206" key="Vcs.Push.Dialog.v2" timestamp="1607215982650">
+      <screen x="1920" y="0" width="2560" height="1410" />
     </state>
+    <state x="2240" y="206" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.2560.1410@1920.0.2560.1410" timestamp="1607215982650" />
     <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1606099143763" />
     <state x="441" y="151" key="VcsDiffUtil.ChangesDialog" timestamp="1605896597078">
       <screen x="0" y="0" width="1536" height="834" />
