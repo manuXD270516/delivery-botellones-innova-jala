@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping({"/clientes"})
-@CrossOrigin("*")
+@CrossOrigin(origins = { "http://localhost:4200" })
 public class ClienteRestController {
     @Autowired
     private IClienteService clienteService;

@@ -14,10 +14,8 @@ public class Cliente extends Persona {
 
     private String nit;
 
-    @NotNull
     private double latitud;
-
-    @NotNull
+    
     private double longitud;
 
     @OneToMany(mappedBy = "cliente")

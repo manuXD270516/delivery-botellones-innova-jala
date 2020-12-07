@@ -29,7 +29,6 @@ public class PedidoDTO {
         Cliente cliente = pedido.getCliente();
         pedidoDTO.cliente = new ClienteDTO();
 
-        pedidoDTO.cliente.idCliente =  cliente.getId();
         pedidoDTO.cliente.ci =  cliente.getCi();
         pedidoDTO.cliente.nombres =  cliente.getNombres();
         pedidoDTO.cliente.apellidos =  cliente.getApellidos();

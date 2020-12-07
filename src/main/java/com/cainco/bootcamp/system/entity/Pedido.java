@@ -28,12 +28,10 @@ public class Pedido extends AbstractEntity {
 
     @ManyToOne(cascade = {CascadeType.ALL})
     @JoinColumn(name = "id_cliente")
-    @NotNull
     private Cliente cliente;
 
     @ManyToOne
     @JoinColumn(name = "id_repartidor")
-    @NotNull
     private Repartidor repartidor;
 
     @ManyToOne

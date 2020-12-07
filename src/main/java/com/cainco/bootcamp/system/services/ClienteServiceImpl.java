@@ -19,7 +19,6 @@ public class ClienteServiceImpl implements IClienteService {
         List<ClienteDTO> clientes = new ArrayList();
         this.clienteDao.findAll().forEach((cl) -> {
             ClienteDTO c = new ClienteDTO();
-            c.idCliente = cl.getId();
             c.ci = cl.getCi();
             c.nit = cl.getNit();
             c.nombres = cl.getNombres();

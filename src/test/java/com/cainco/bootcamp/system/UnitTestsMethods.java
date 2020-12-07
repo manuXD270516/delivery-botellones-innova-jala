@@ -125,7 +125,6 @@ public class UnitTestsMethods {
         Cliente clienteBuscado = casosUsoClientes.obtenerClientePorCI(cliente.getCi());
 
         ClienteDTO clienteDTO = new ClienteDTO();
-        clienteDTO.idCliente = 1;
         clienteDTO.nombres = clienteBuscado.getNombres();
         clienteDTO.apellidos = clienteBuscado.getApellidos();
         clienteDTO.telefono = clienteBuscado.getTelefono();

@@ -2,7 +2,6 @@ package com.cainco.bootcamp.system.dto;
 
 public class ClienteDTO {
 
-    public long idCliente;
     public String ci;
     public String nombres;
     public String apellidos;

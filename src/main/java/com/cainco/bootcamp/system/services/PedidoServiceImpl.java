@@ -49,23 +49,17 @@ public class PedidoServiceImpl implements IPedidoService {
         Pedido pedidoParaRegistro = new Pedido();
         Cliente cliente = new Cliente();
         DetallePedido detallePedido = new DetallePedido();
-        if (pedido.cliente.idCliente != 0) {
-            cliente = this.clienteDao.findByTelefono(pedido.cliente.telefono);
-        } else {
-
+     
+           
             cliente.setNombres(pedido.cliente.nombres);
             cliente.setApellidos(pedido.cliente.apellidos);
             cliente.setLatitud(pedido.cliente.latitud);
             cliente.setLongitud(pedido.cliente.longitud);
             cliente.setTelefono(pedido.cliente.telefono);
-            if (validaciones.validaCarnet(pedido.cliente.ci)) {
-                cliente.setCi(pedido.cliente.ci);
-            }
+            cliente.setCi(pedido.cliente.ci);
+        
 
-
-        }
-
-        pedidoParaRegistro.setCliente(cliente);
+       
         Optional<Repartidor> repartidorOptional = this.repartidorDao.findById(pedido.idRepartidor);
         if (repartidorOptional.isPresent()) {
             Repartidor repartidor = repartidorOptional.get();
@@ -115,9 +109,12 @@ public class PedidoServiceImpl implements IPedidoService {
         if (validaciones.validaCarnet(pedido.cliente.ci)) {
             response.estado = 200;
             response.mensaje = "Pedido registrado exitosamente";
-            this.pedidoDao.save(pedidoParaRegistro);
-            cliente = this.clienteDao.save(cliente);
+            cliente=this.clienteDao.save(cliente);
+            pedidoParaRegistro.setCliente(cliente);
             this.detallePedidoDao.save(detallePedido);
+            this.pedidoDao.save(pedidoParaRegistro);
+            
+            
         } else {
             response.estado = 400;
             response.mensaje = "formato de carnet incorrecto";
